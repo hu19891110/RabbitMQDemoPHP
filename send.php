@@ -17,7 +17,7 @@ $channel->queue_declare('rh11_hello', false, false, false, false);
 $msg = new AMQPMessage('Hello, World!');
 
 // Publish message
-$channel->basic_publish($msg, '', 'hello');
+$channel->basic_publish($msg, '', 'rh11_hello');
 echo " [x] Sent 'Hello World!'\n";
 
 // Close the channel and connection
