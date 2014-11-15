@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe311a73-957e-43eb-bcce-9868e7f83b1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/receive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/send.php" afterPath="$PROJECT_DIR$/send.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_work_queues/new_task.php" />
+      <change type="MOVED" beforePath="C:\Users\Rick\PhpstormProjects\RabbitMQDemoPHP\receive.php" afterPath="$PROJECT_DIR$/1_hello_world/receive.php" />
+      <change type="MOVED" beforePath="C:\Users\Rick\PhpstormProjects\RabbitMQDemoPHP\send.php" afterPath="$PROJECT_DIR$/1_hello_world/send.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RabbitMQDemoPHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,9 +33,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="send.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/send.php">
+        <entry file="file://$PROJECT_DIR$/1_hello_world/send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="556" selection-end="556" vertical-scroll-proportion="-13.4838705" vertical-offset="0" max-vertical-offset="682">
+            <state line="6" column="0" selection-start="133" selection-end="181" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="682">
               <folding>
                 <element signature="e#54#95#0" expanded="true" />
               </folding>
@@ -41,11 +43,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="receive.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/receive.php">
+      <file leaf-file-name="receive.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_hello_world/receive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="603" selection-end="603" vertical-scroll-proportion="0.50574714" vertical-offset="0" max-vertical-offset="870">
+            <state line="20" column="35" selection-start="603" selection-end="603" vertical-scroll-proportion="-14.193548" vertical-offset="0" max-vertical-offset="704">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_task.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_work_queues/new_task.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="21" selection-start="922" selection-end="922" vertical-scroll-proportion="0.80733943" vertical-offset="0" max-vertical-offset="872">
+              <folding>
+                <element signature="e#54#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +79,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/receive.php" />
         <option value="$PROJECT_DIR$/send.php" />
+        <option value="$PROJECT_DIR$/2_work_queues/new_task.php" />
       </list>
     </option>
   </component>
@@ -126,6 +140,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RabbitMQDemoPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RabbitMQDemoPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_work_queues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RabbitMQDemoPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RabbitMQDemoPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_hello_world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -134,6 +176,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rick\PhpstormProjects\RabbitMQDemoPHP\hello_world" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -185,25 +233,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -225,29 +273,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit of project" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/1_hello_world/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="61" selection-end="61" vertical-scroll-proportion="0.050574712" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="556" selection-end="556" vertical-scroll-proportion="-13.4838705" vertical-offset="0" max-vertical-offset="682">
+        <state line="19" column="45" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
           <folding>
             <element signature="e#54#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/receive.php">
+    <entry file="file://$PROJECT_DIR$/1_hello_world/receive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="603" selection-end="603" vertical-scroll-proportion="0.50574714" vertical-offset="0" max-vertical-offset="870">
+        <state line="20" column="35" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="704">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="61" selection-end="61" vertical-scroll-proportion="0.050574712" vertical-offset="0" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_hello_world/receive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="35" selection-start="603" selection-end="603" vertical-scroll-proportion="-14.193548" vertical-offset="0" max-vertical-offset="704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_hello_world/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="133" selection-end="181" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="682">
+          <folding>
+            <element signature="e#54#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_work_queues/new_task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="21" selection-start="922" selection-end="922" vertical-scroll-proportion="0.80733943" vertical-offset="0" max-vertical-offset="872">
+          <folding>
+            <element signature="e#54#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
